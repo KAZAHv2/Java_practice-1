@@ -1,2 +1,3 @@
-# Java_practice
- 35_Artem_Teslia
+# Java practice
+Group №35
+Student: Artem Teslia
