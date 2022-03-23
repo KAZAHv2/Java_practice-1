@@ -15,7 +15,7 @@ public class Main {
         do {
             do {
                 System.out.println("Enter command...");
-                System.out.print("'q'uit, 'v'iew, 'g'enerate, 's'ave, 'r'estore: ");
+                System.out.print("'q'uit, 'v'iew, 'c'alculate, 's'ave, 'r'estore: ");
                 try {
                     s = in.readLine();
                 } catch(IOException e) {
@@ -31,8 +31,9 @@ public class Main {
                     System.out.println("View current.");
                     calc.show();
                     break;
+                    //TODO correct formula
                 case 'g':
-                    System.out.println("Random generation.");
+                    System.out.println("Calculate.");
                     calc.init( Math.sin(2 * Angle)/G);
                     calc.show();
                     break;
