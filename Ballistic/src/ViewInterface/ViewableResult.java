@@ -1,4 +1,4 @@
-package View;
+package ViewInterface;
 
     /** ConcreteCreator
      * (шаблон проектирования

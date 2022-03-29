@@ -1,4 +1,4 @@
-package View;
+package ViewInterface;
 
 import java.io.IOException;
     /** Product

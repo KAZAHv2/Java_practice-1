@@ -1,4 +1,4 @@
-package View;
+package ViewInterface;
 
     /** Creator
      * (шаблон проектирования
