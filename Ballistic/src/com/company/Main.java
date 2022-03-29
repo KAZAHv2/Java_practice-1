@@ -3,6 +3,7 @@ package com.company;
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import static com.company.Calc.calc;
 
 public class Main {
 
@@ -31,10 +32,9 @@ public class Main {
                     System.out.println("View current.");
                     calc.show();
                     break;
-                    //TODO correct formula
-                case 'g':
+                case 'с':
                     System.out.println("Calculate.");
-                    calc.init( Math.sin(2 * Angle)/G);
+                    calc.init(21600, 60);
                     calc.show();
                     break;
                 case 's':

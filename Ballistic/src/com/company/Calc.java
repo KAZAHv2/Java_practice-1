@@ -35,25 +35,20 @@ public class Calc {
 
     /** Вираховує значення формули
      * @param Speed - швидкість польоту
-     * @param Angle - кут польоту
-     * @param G - константа(коефіцієнт вільного польоту)
      * */
-    private double calc(double Speed, double Angle, double G){
-        return Speed * Speed * Math.sin(2 * Angle)/G;
+    public static double calc(double Speed, double Angle){
+        return Speed * Speed * Math.sin(2 * Angle)/9.8;
     }
 
     /**Вираховує значення формули
      * та зберігає рехультат в об'єкт {@linkplain Calc#result}
      * @param Speed - швидкість польоту
-     * @param Angle - кут польоту
-     * @param G - константа(коефіцієнт вільного польоту)
      * */
     //TODO result and return
-    public double init(double Speed, double Angle, double G){
+    public double init(double Speed, double Angle){
         result.setSpeed(Speed);
         result.setAngle(Angle);
-        result.setG(G);
-        return
+        return result.setAngle(calc(Speed,Angle));
     }
 
     /**Виведення результату обчислення */
